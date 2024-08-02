@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #2280a7;
+    padding: 20px;
+}
+
+.game-box {
+    background-color: #e9eded;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.word-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.letter {
+    font-size: 2rem;
+    margin: 0 5px;
+    padding: 10px;
+    border-bottom: 2px solid #000;
+    width: 40px;
+    text-align: center;
+}
+
+.visible {
+    color: #000;
+}
+
+.word-description {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.stars {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.button-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guess-section {
+    margin-bottom: 20px;
+}
+
+.restart-button,
+.remove-button,
+.guess-button,
+.hint-button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.restart-button {
+    background-color: #f44336; /* Röd */
+}
+
+.remove-button {
+    background-color: #ff9800; /* Orange */
+}
+
+.guess-button {
+    background-color: #4caf50; /* Grön */
+}
+
+.hint-button {
+    background-color: #2196f3; /* Blå */
+}
+
+.letter-selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.letter-button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #607d8b; /* Gråblå */
+    color: white;
+}
+
+.letter-button.selected {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+    color: #aaa;
+}
+
+.hints {
+    margin-bottom: 20px;
+}
